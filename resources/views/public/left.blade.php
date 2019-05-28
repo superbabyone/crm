@@ -33,7 +33,7 @@
         <li class="layui-nav-item">
           <a href="javascript:;">订单系统</a>
           <dl class="layui-nav-child">
-            <dd><a href="javascript:;">订单列表</a></dd>
+            <dd><a href="{{url('/order/index')}}">订单列表</a></dd>
           </dl>
         </li>
       </ul>

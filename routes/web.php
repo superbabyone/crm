@@ -17,3 +17,7 @@ Route::get('/', function () {
 
 Route::get('/','IndexController@index');
 
+Route::prefix('/order')->group(function (){
+   Route::get('add/goods_id/{goods_id}','OrderController@add');
+    Route::get('index','OrderController@index');
+});
